@@ -1,0 +1,67 @@
+@font-face{
+	font-family:amatic;
+	src:url('amatic.ttf')
+}
+body{
+	font-family:amatic;
+}
+section{
+	margin:0 auto;
+	width:90%;
+	box-shadow:5px 5px 10px gray;
+}
+#secaoCabecalho{
+	border-top: 5px solid #ffc10e;
+	z-index: 2;
+	height:5em;
+}
+#imgLogo{
+	float:left;
+	width:6%;
+	margin:1% 15% 1% 1%;
+}
+#imgHome{
+	width:100%;
+}
+.menu{
+	list-style-type:none;
+	vertical-align:bottom;
+}
+.menu li{
+	display:inline-block;
+	padding:0 5%;
+	margin-top:1%;
+}
+h3{
+	background-image:url("imagens/h3.jpg");
+	background-size:cover;
+	font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+	padding:0 2%;
+}
+p{
+	font-size:24px;
+	padding:0 2%;
+	color:white;
+}
+.menu li a{
+	display:block;
+	text-decoration:none;
+	font-size:32px;
+	color:white;
+	text-transform:uppercase;
+	font-weight: 700;
+	cursor:pointer;
+}
+.menu li a:hover{
+	color:#ffc10e;
+	border-bottom: 5px solid #ffc10e;
+}
+input{
+	padding:1% 1%;
+	margin-left:2%;
+	border-radius:10px;
+	border:5px solid #ffc10e;
+	width:10%;
+}

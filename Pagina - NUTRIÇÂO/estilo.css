@@ -1,0 +1,90 @@
+body{
+    background-image: url("imagens/fundo.jpg");
+    background-size: cover;
+    font-family: "Segoe Script";
+    
+    
+}
+
+#logo{
+    
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.menu{
+    
+    width: 65%;
+    margin: 0 auto;
+    display: block;
+}
+
+.menu ul{
+    
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    
+    
+}
+
+.menu ul li{
+    display: inline-block ;
+    width: 24%;
+    
+}
+
+.menu ul li a{
+    
+    display: block;
+    text-decoration: none; 
+    background-color: #6B9571;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1%;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;   
+}
+
+.menu li a:hover{
+    color: white;
+    background-color: #c1703F;
+}
+
+.sec{
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+}
+
+.sec h3{
+    text-align: center;
+    border-bottom:6px solid #6B9571;
+}
+
+article p{
+    
+    white-space:pre-wrap;
+    text-align: justify;
+    
+}
+
+.sec2{
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+}
+
+.sec2 h3{
+    text-align: center;
+    border-bottom:6px solid #6B9571;
+}
+
+article img{
+    width: 20%;
+    float: left;
+}
+
+

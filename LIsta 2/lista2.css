@@ -1,0 +1,35 @@
+
+body{
+	background:linear-gradient(to bottom, white,silver);
+	background-repeat:no-repeat;
+}
+@font-face{
+    font-family:fonte;
+    src:url("minha_fonte.ttf");
+}
+#cabecalho{
+    font-family:fonte;
+	font-size:50px;
+	color:green;
+	text-shadow:10px 10px 15px gray;
+}
+
+.vermelho{
+	color:red;
+}
+.azul{
+	color:blue;
+}
+#logo{
+	width:20%;
+	height:20%;
+	transition:width 2s, height 2s;
+}
+#logo:hover{
+	width:40%;
+	height:40%;
+}
+#img{
+	opacity:0.2;
+	width:70%;
+}

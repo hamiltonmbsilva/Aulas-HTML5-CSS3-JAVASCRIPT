@@ -1,0 +1,49 @@
+body{
+	font-family: Comic Sans Ms;
+}
+
+.menu{
+	list-style-type:nome;
+}
+
+.menu li{
+	display:inline-table;
+	width: 20%;
+	background-color:navy;
+	margin: 1%;
+	
+}
+
+.menu li a{
+	text-decoration: none;
+	color:white;
+	font-size: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+	display:block;
+	padding: 2%;
+	
+}
+
+.menu li a:hover{
+	background-color:red;
+	text-decoration: underline;
+}
+.menu li ul{
+	display:none;
+	padding:0;
+	
+	
+}
+
+.menu li:hover ul{
+	display:block;
+	width: 100%;
+	clear: both;
+	padding:0;
+}
+
+.menu li ul li{
+	width: 100%;
+	margin:0;
+}

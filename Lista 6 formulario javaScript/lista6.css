@@ -1,0 +1,58 @@
+body{
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+fieldset{
+	border-style:dashed;
+	border-color:#00FF00;
+	border-radius:15px;
+	width: 260px;
+	height: 120px;
+}
+legend{
+	background-color:red;
+	color:#FFFFFF;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+label{
+	position: absolute;
+	left: 20px;
+	text-align:right;
+}
+#inputUsuario, #inputSenha{
+	position: absolute;
+	background-color: teal;
+	border-color:#800080;
+	left: 90px;
+	width:150px;
+}
+
+.usuario{
+	top:50px;
+}
+
+.senha{
+	top:80px;
+}
+
+form label{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:navy;
+	font-weight: bolder;
+	float: left;
+}
+
+#button{
+	position: absolute;
+	top:110px;
+	left: 225px;
+	font-family:"Palatino Linotype", "Book Antiqua", Plation, serif;
+	background-color:blue;
+	border-color:#000000;
+	font-weight: bolder;
+	color:#FFFFFF;
+	text-transform: uppercase;
+}

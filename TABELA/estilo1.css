@@ -1,0 +1,68 @@
+body{
+	background-color:#c0c0c0;
+	font-family:calibri;
+}
+
+#principal{
+	display:block;
+	width:40%;
+}
+.tabela{
+	width: 100%;
+	margin:0;
+	background-color:white;
+	border-bottom:5px solid #ffffff;
+	border-radius:0 0 10px 10px;
+	text-align:center;
+	border-spacing:0;
+}
+
+h1{
+	display:block;
+	background-color:#fa5252;
+	padding:2%;
+	color:white;
+	font-size:1.5em;
+	vertical-align:middle;
+	margin:0;
+	border-top:10px solid #fa5252;
+	border-radius:10px 10px 0 0;
+	
+}
+
+td{
+	
+	border: 2px solid rgb(241, 241, 241);
+	border-collapse: collapse;
+}
+
+td:nth-child:(1n+6){
+	background-color:rgb(241,241,241);
+}
+
+label{
+	display:block;
+	margin:0 20% 3% 9%;
+}
+
+#im{
+	display:block;
+	width:10%;
+	margin:0 2%;
+	float:left;	
+}
+
+input[type="email"],input[type="password"]{
+	background-color:#eeeeee;
+	width:80%;
+	margin:3% auto;
+	display:block;
+	padding:1%;
+}
+
+input[type="submit"]{
+	background-color:rgb(51,205,119);
+	margin:3% auto;
+	display:block;
+	padding:1%;
+}

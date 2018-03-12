@@ -1,0 +1,76 @@
+h1{
+	text-decoration: underline;
+	
+}
+p.pp{
+	font-weight: bold;
+}
+
+h2.nn{
+	
+	font-style: italic;
+	
+	font-size: 25px
+	
+	
+}
+span.mm{
+	text-decoration:line-through;
+}
+
+.quebraLinha{
+	
+	
+	text-align: left-side;
+}
+
+h2.kk{
+	
+	font-style: italic;
+	
+	font-size: 25px
+	
+	
+}
+
+.quebraLinha2{
+	
+	
+	text-align: left-side;
+}
+
+p.pf{
+	
+	font-variant: small-caps
+}
+
+/*
+1. Introdução e Formatação de Fontes;
+2. Cores, Background e Imagens;
+3. Cabeçalhos e Blocos;
+4. Listas e Links;
+5. Estilizando Formularios;
+6. Tabelas;
+7. Layout.
+
+1. Introdução a Javascript;
+2. Conceitos Basicos;
+3. Operadores matematicos e logicos;
+4. Controles especiais;
+5. Comentario;
+6. Janelas e alerta;
+7. Variaveis, Strings e Matrizes;
+8. Declaração de variaveis;
+9. Convertendo tipos de dados;
+10. Manipulando Strings;
+11. Convertendo caixa de Texto;
+12. Descobrindo comprimento de ums String(lenght);
+13. Substrings;
+14. Manipulando datas;
+15. Operadores condicionais;
+16. Funções;
+17. Validação de formularios;
+18. Eventos;
+19. Biblioteca jQuery.
+
+*/

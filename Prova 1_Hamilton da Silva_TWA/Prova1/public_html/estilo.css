@@ -1,0 +1,86 @@
+body{
+    background-image:url("imagens/principal.jpg");
+    font-family:Open Sans;
+    font-size:18px;
+    
+}
+.menu{
+    list-style-type:none;
+    padding:0%;
+}
+.logo{
+    width: 15%;
+    float: left;
+}
+
+.menu li{
+    display: block;
+    float:left;
+    margin:1%;
+    width:18%;
+    
+}
+
+.menu li a{
+    display:block;
+    text-decoration: none;
+    background-color:#2fc3a9;
+    color:white;
+    text-align:center;
+    font-size:24px;
+    padding:1%;
+    width: 100%;
+    text-transform:uppercase;
+    
+   
+}
+.menu li a:hover{
+    background-color:#ffc488;
+    text-decoration:underline;
+}
+h1{
+    padding-top: 10%;
+    margin-left: 18%;
+    text-align: justify;
+    color: white;
+    font-size:250%;
+    
+}
+.text{
+    padding-top: 0%;
+    float: left;
+    margin-left: 0%;
+    margin-top: -20px;
+}
+
+.texto{
+   
+    text-align: justify;
+    color: #ffffff;
+    width: 30%;
+    margin-top: 130px;
+    margin-left: 2%;
+    font-size: 22px;
+}
+.hotel{
+    background-image:url("imagens/hotel.jpg");
+}
+.contato{
+    background-image:url("imagens/contato.jpg");
+}
+.atracao{
+    background-image:url("imagens/atracoes.jpg");
+}
+.image1{
+    width: 80em;
+    float: left;
+    margin-left: 35%;
+    
+}
+.image2{
+    width: 80em;
+ 
+    margin-left: 51%;
+    margin-right: 5%;
+    padding-left: 0%;
+}

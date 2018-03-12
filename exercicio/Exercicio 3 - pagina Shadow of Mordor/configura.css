@@ -1,0 +1,101 @@
+h1{
+	text-align: left;
+	font-family:OptimusPrinceps;
+    font-size: 55px;
+    margin-left: 75px;
+    background: linear-gradient(white 20%, grey 60%, black 20%);
+    -webkit-background-clip: text;
+    color:transparent;
+  	display: block;
+    margin: 0 auto;
+}
+@font-face{
+	src: url("OptimusPrinceps.ttf");
+	font-family:OptimusPrinceps;
+}
+
+body{
+    background-image: url(imagem5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.logo{
+   max-width: 45px;
+   max-height: 250px;
+   float: left;
+   margin-left: 15px;
+}
+.texto2{
+    text-align: center;
+    
+    background: linear-gradient(white 20%, grey 60%, black 20%);
+    -webkit-background-clip: text;
+    color:transparent;
+}
+
+.conteudo{
+    border-style: double;
+    border-width: 15px;
+    width: 570px;
+    margin-left: 5px;
+}
+.imagem1{
+    max-width: 250px;
+    max-height: 250px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+p{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+}
+
+.conteudo2{
+    border-style: double;
+    border-width: 15px;
+    width: 570px;
+    margin-left: 5px;
+    
+    
+}
+
+.imagem2{
+    
+    max-width: 250px;
+    max-height: 250px;
+    float: left;
+    margin-left: 5px;
+    
+}
+
+.link{
+    float: right;
+    margin-top: -83%;
+    
+    display: block;
+    border-style: double;
+    border-width: 15px;
+    background-color: darkgrey;
+    opacity: 0.6;
+    margin-left: 78%;
+    position: fixed;
+}
+
+.texto_link{
+    
+    text-align: center;
+    background: linear-gradient(white 30%, grey 70%, black 10%);
+    -webkit-background-clip: text;
+    color:transparent;
+}
+
+li{
+    color: red;
+}
+    
